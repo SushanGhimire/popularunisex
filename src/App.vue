@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <body
+    class="flex flex-col bg-gray-100 w-screen font-header h-screen overflow-hidden"
+  >
+    <nav class="w-full flex py-4 h-12 items-center bg-white">
+      <!-- logo part -->
+      <div class="w-64 flex justify-center">Popular Unisex</div>
+      <div class="flex-1 flex justify-end">
+        <ul class="list-none flex mr-10">
+          <li class="ml-3">Home</li>
+          <li class="ml-3">About Us</li>
+          <li class="ml-3">Services</li>
+          <li class="ml-3">Contact Us</li>
+        </ul>
+      </div>
+    </nav>
+    <main class="w-full h-full overflow-auto justify-center flex">
+      fkdfjgbkdfj
+    </main>
+  </body>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
